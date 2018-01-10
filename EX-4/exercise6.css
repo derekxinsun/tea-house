@@ -1,0 +1,116 @@
+/*A2 Exercise6_style_40038821*/
+body{
+    background:url(image/bg.png)repeat;
+    position: relative;
+    margin:5px auto;
+    text-align:center;
+    height:1000px;
+}
+
+div{
+    text-align: center;
+    border-style: solid;
+    border-width: 0px;
+
+}
+#box {
+    border-style: none;
+    position: relative;
+}
+
+/*********side menu variable*****/
+#side{
+    width: 200px;
+    height:600px;
+    position: absolute;
+}
+#side ul  {
+    list-style-type:none;
+    padding: 20px;
+    position: absolute;
+    margin-top: 100px;
+}
+
+#side li {
+    background-color: grey;
+    width: 150px;
+    height: 80px;
+    text-indent: 10px;
+    text-decroration:none;
+}
+
+#side a{
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: 700;
+    margrin:auto;
+    color:white;
+}
+/********content *********/
+#header {
+    width: 1380px;
+    height: 120px;
+    position: absolute;
+    margin-right:100px;
+}
+#header a {
+    top:20px;
+}
+#header p {
+    font-family: 'Arial', serif;
+    font-size: large;
+}
+#content {
+    width: 1000px;
+    height: 600px;
+    position: relative;
+    left:200px;
+    top: 120px;
+}
+.context{
+    margin-right:10px;
+    font-family: 'Arial', serif;
+}
+
+td img{
+    width:100px;
+    height:100px;
+    padding:20px;
+}
+
+/*********footer**********/
+footer{
+    background-color: white;
+    width:1000px;
+    height:80px;
+    position:absolute;
+    margin-left:200px;
+    margin-top: 250px;
+    padding-top: 40px;
+    padding-left: 40px;
+    border:none;
+}
+.flo {
+    float: left;
+    bottom:10px;
+}
+.copy {
+    font-size:11px;
+    color:black;
+    width:250px;
+    bottom: 20px;
+}
+.tel {
+    font-size:11px;
+    width:110px;
+    border-right:2px solid lightgray;
+    margin-right:10px;
+    padding-top:-10px;
+}
+.dibulogo {
+    width:108px;
+    border-right:2px solid lightgray;
+    margin-right:10px;
+    padding-right:10px;
+    padding-top: 10px;
+}
